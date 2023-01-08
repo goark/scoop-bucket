@@ -1,0 +1,31 @@
+{
+    "version": "0.6.3",
+    "description": "Make Link with Markdown Format",
+    "homepage": "https://github.com/goark/ml",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/goark/ml/releases/download/v0.6.3/ml_0.6.3_Windows_64bit.zip",
+            "hash": "ec0a4f57b79a2ea1b446ac8c8ded63eb253a0438e6a2d621e9a476be94c5bb6b"
+        },
+        "arm64": {
+            "url": "https://github.com/goark/ml/releases/download/v0.6.3/ml_0.6.3_Windows_ARM64.zip",
+            "hash": "b7b70c07b33c573da7c9970b729a8e1a3c8771f1203920c17afc756718c4ffe4"
+        }
+    },
+    "bin": "ml.exe",
+    "checkver": {
+        "url": "https://github.com/goark/ml",
+        "regex": "tag/([\\d\\._]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/goark/ml/releases/download/v$version/ml_$version_Windows_64bit.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/goark/ml/releases/download/v$version/ml_$version_Windows_ARM64.zip"
+            }
+        }
+    }
+}
