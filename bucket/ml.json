@@ -15,7 +15,8 @@
     },
     "bin": "ml.exe",
     "checkver": {
-        "url": "https://github.com/goark/ml"
+        "url": "https://github.com/goark/ml",
+        "regex": "tag/([\\d\\._]+)"
     },
     "autoupdate": {
         "architecture": {
