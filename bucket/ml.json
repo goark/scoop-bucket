@@ -1,30 +1,32 @@
 {
-    "version": "0.6.3",
-    "description": "Make Link with Markdown Format",
-    "homepage": "https://github.com/goark/ml",
-    "license": "Apache-2.0",
+    "version": "0.6.5",
+    "description": "Visualize depndency packages and modules",
+    "homepage": "https://github.com/goark/depm",
+    "license": "Apache License 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goark/ml/releases/download/v0.6.3/ml_0.6.3_Windows_64bit.zip",
-            "hash": "ec0a4f57b79a2ea1b446ac8c8ded63eb253a0438e6a2d621e9a476be94c5bb6b"
+            "url": "https://github.com/goark/depm/releases/download/v0.6.5/depm_0.6.5_Windows_64bit.zip",
+            "hash": "0aee89e14c1fcd359617d140a6c4981d953355e0755ec2924ce13737d8654e58"
         },
         "arm64": {
-            "url": "https://github.com/goark/ml/releases/download/v0.6.3/ml_0.6.3_Windows_ARM64.zip",
-            "hash": "b7b70c07b33c573da7c9970b729a8e1a3c8771f1203920c17afc756718c4ffe4"
+            "url": "https://github.com/goark/depm/releases/download/v0.6.5/depm_0.6.5_Windows_ARM64.zip",
+            "hash": "02da6eb38cb6fcf3d3cf4a265071bf5132f2bd9349e2513f8c3099605ada4fa7"
         }
     },
-    "bin": "ml.exe",
+    "bin": [
+        "depm.exe"
+    ],
     "checkver": {
-        "url": "https://github.com/goark/ml",
+        "github": "https://github.com/goark/depm",
         "regex": "tag/([\\d\\._]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/goark/ml/releases/download/v$version/ml_$version_Windows_64bit.zip"
+                "url": "https://github.com/goark/depm/releases/download/v$version/depm_$version_Windows_64bit.zip"
             },
             "arm64": {
-                "url": "https://github.com/goark/ml/releases/download/v$version/ml_$version_Windows_ARM64.zip"
+                "url": "https://github.com/goark/depm/releases/download/v$version/depm_$version_Windows_ARM64.zip"
             }
         }
     }
