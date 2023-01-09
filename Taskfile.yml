@@ -1,0 +1,43 @@
+version: '3'
+
+tasks:
+  default:
+    deps: [depm, gnkf, gpgpdump, ml]
+
+  depm:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/depm > depm.json
+    generates:
+      - depm.json
+
+  gnkf:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/gnkf > gnkf.json
+    generates:
+      - gnkf.json
+
+  gpgpdump:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/gpgpdump > gpgpdump.json
+    generates:
+      - gpgpdump.json
+
+  ml:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/depm > ml.json
+    generates:
+      - ml.json
+
+  build-make-scoop-manifest:
+    desc: Build make-scoop-manifest command.
+    run: once
+    cmds:
+      - go install github.com/hymkor/make-scoop-manifest@latest

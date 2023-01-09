@@ -2,7 +2,7 @@
     "version": "0.6.5",
     "description": "Visualize depndency packages and modules",
     "homepage": "https://github.com/goark/depm",
-    "license": "Apache-2.0",
+    "license": "Apache License 2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/goark/depm/releases/download/v0.6.5/depm_0.6.5_Windows_64bit.zip",
@@ -13,10 +13,11 @@
             "hash": "02da6eb38cb6fcf3d3cf4a265071bf5132f2bd9349e2513f8c3099605ada4fa7"
         }
     },
-    "bin": "depm.exe",
+    "bin": [
+        "depm.exe"
+    ],
     "checkver": {
-        "url": "https://github.com/goark/depm",
-        "regex": "tag/([\\d\\._]+)"
+        "github": "https://github.com/goark/depm"
     },
     "autoupdate": {
         "architecture": {

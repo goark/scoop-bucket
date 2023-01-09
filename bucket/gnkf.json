@@ -2,7 +2,7 @@
     "version": "0.7.2",
     "description": "Network Kanji Filter by Golang",
     "homepage": "https://github.com/goark/gnkf",
-    "license": "Apache-2.0",
+    "license": "Apache License 2.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/goark/gnkf/releases/download/v0.7.2/gnkf_0.7.2_Windows_64bit.zip",
@@ -13,10 +13,11 @@
             "hash": "4b9bd22bfe537b9775a14c1214eb63b2fbb921ee23a53d751598829f046de119"
         }
     },
-    "bin": "gnkf.exe",
+    "bin": [
+        "gnkf.exe"
+    ],
     "checkver": {
-        "url": "https://github.com/goark/gnkf",
-        "regex": "tag/([\\d\\._]+)"
+        "github": "https://github.com/goark/gnkf"
     },
     "autoupdate": {
         "architecture": {
