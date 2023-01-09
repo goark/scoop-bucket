@@ -17,8 +17,7 @@
         "depm.exe"
     ],
     "checkver": {
-        "github": "https://github.com/goark/depm",
-        "regex": "tag/([\\d\\._]+)"
+        "github": "https://github.com/goark/depm"
     },
     "autoupdate": {
         "architecture": {

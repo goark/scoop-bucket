@@ -17,8 +17,7 @@
         "gnkf.exe"
     ],
     "checkver": {
-        "github": "https://github.com/goark/gnkf",
-        "regex": "tag/([\\d\\._]+)"
+        "github": "https://github.com/goark/gnkf"
     },
     "autoupdate": {
         "architecture": {

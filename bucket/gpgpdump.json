@@ -17,8 +17,7 @@
         "gpgpdump.exe"
     ],
     "checkver": {
-        "github": "https://github.com/goark/gpgpdump",
-        "regex": "tag/([\\d\\._]+)"
+        "github": "https://github.com/goark/gpgpdump"
     },
     "autoupdate": {
         "architecture": {
