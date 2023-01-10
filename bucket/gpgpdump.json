@@ -16,9 +16,7 @@
     "bin": [
         "gpgpdump.exe"
     ],
-    "checkver": {
-        "github": "https://github.com/goark/gpgpdump"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
