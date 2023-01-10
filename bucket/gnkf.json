@@ -16,9 +16,7 @@
     "bin": [
         "gnkf.exe"
     ],
-    "checkver": {
-        "github": "https://github.com/goark/gnkf"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {

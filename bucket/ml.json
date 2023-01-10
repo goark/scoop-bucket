@@ -16,9 +16,7 @@
     "bin": [
         "depm.exe"
     ],
-    "checkver": {
-        "github": "https://github.com/goark/depm"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
