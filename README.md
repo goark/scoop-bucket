@@ -15,7 +15,7 @@ scoop install <manifest>
 Repositories
 ------------
 
-- [gpgpdump](https://github.com/goark/gpgpdump "goark/gpgpdump: OpenPGP packet visualizer") v0.15.0 - OpenPGP packet visualizer
-- [depm](https://github.com/goark/depm "goark/depm: Visualize depndency packages and modules") v0.6.5 - Visualize depndency packages and modules
-- [gnkf](https://github.com/goark/gnkf "goark/gnkf: Network Kanji Filter by Golang") v0.7.2 - Network Kanji Filter by Golang
-- [ml](https://github.com/goark/ml "goark/ml: Make Link with Markdown Format") v0.6.3 - Make Link with Markdown Format
+- [gpgpdump](https://github.com/goark/gpgpdump "goark/gpgpdump: OpenPGP packet visualizer") - OpenPGP packet visualizer
+- [depm](https://github.com/goark/depm "goark/depm: Visualize depndency packages and modules") - Visualize depndency packages and modules
+- [gnkf](https://github.com/goark/gnkf "goark/gnkf: Network Kanji Filter by Golang") - Network Kanji Filter by Golang
+- [ml](https://github.com/goark/ml "goark/ml: Make Link with Markdown Format") - Make Link with Markdown Format

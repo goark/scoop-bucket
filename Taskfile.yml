@@ -32,7 +32,7 @@ tasks:
     dir: bucket/
     deps: [build-make-scoop-manifest]
     cmds:
-      - make-scoop-manifest -D -g goark/depm > ml.json
+      - make-scoop-manifest -D -g goark/ml > ml.json
     generates:
       - ml.json
 
