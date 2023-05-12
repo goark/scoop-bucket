@@ -1,6 +1,6 @@
 # Scoop Bucket for goark binaries
 
-[![Tests](https://github.com/goark/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/goark/scoop-bucket/actions/workflows/ci.yml) [![Excavator](https://github.com/goark/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/goark/scoop-bucket/actions/workflows/excavator.yml)
+[![Tests](https://github.com/goark/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/goark/scoop-bucket/actions/workflows/ci.yml)
 
 This is the [goark](https://github.com/goark "Playing with Go Language") binaries' bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
