@@ -28,6 +28,14 @@ tasks:
     generates:
       - gpgpdump.json
 
+  gpt-cli:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/gpt-cli > gpt-cli.json
+    generates:
+      - gpt-cli.json
+
   ml:
     dir: bucket/
     deps: [build-make-scoop-manifest]
