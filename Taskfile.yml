@@ -2,7 +2,7 @@ version: '3'
 
 tasks:
   default:
-    deps: [depm, gnkf, gpgpdump, ml]
+    deps: [depm, gnkf, gpgpdump, ml, gpt-cli, toolbox]
 
   depm:
     dir: bucket/
@@ -28,6 +28,14 @@ tasks:
     generates:
       - gpgpdump.json
 
+  ml:
+    dir: bucket/
+    deps: [build-make-scoop-manifest]
+    cmds:
+      - make-scoop-manifest -D -g goark/ml > ml.json
+    generates:
+      - ml.json
+
   gpt-cli:
     dir: bucket/
     deps: [build-make-scoop-manifest]
@@ -36,13 +44,13 @@ tasks:
     generates:
       - gpt-cli.json
 
-  ml:
+  toolbox:
     dir: bucket/
     deps: [build-make-scoop-manifest]
     cmds:
-      - make-scoop-manifest -D -g goark/ml > ml.json
+      - make-scoop-manifest -D -g goark/toolbox > toolbox.json
     generates:
-      - ml.json
+      - toolbox.json
 
   build-make-scoop-manifest:
     desc: Build make-scoop-manifest command.
