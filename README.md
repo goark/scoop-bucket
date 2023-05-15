@@ -19,3 +19,5 @@ Repositories
 - [depm](https://github.com/goark/depm "goark/depm: Visualize depndency packages and modules") - Visualize depndency packages and modules
 - [gnkf](https://github.com/goark/gnkf "goark/gnkf: Network Kanji Filter by Golang") - Network Kanji Filter by Golang
 - [ml](https://github.com/goark/ml "goark/ml: Make Link with Markdown Format") - Make Link with Markdown Format
+- [gpt-cli](https://github.com/goark/gpt-cli "goark/gpt-cli: CLI tool for GPT with OpenAI API") - CLI tool for GPT with OpenAI API
+- [toolbox](https://github.com/goark/toolbox "goark/toolbox: A collection of miscellaneous commands") - A collection of miscellaneous commands
