@@ -1,16 +1,16 @@
 {
-    "version": "0.6.4",
+    "version": "0.6.8",
     "description": "Make Link with Markdown Format",
     "homepage": "https://github.com/goark/ml",
     "license": "Apache License 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goark/ml/releases/download/v0.6.4/ml_0.6.4_Windows_64bit.zip",
-            "hash": "b255f3c2e4196935d70a1d50a1d2756fcc04446d7cea46f0056bca7f2c1ac2a4"
+            "url": "https://github.com/goark/ml/releases/download/v0.6.8/ml_0.6.8_Windows_64bit.zip",
+            "hash": "d33f8026ed398b0ebcee50e7de0778bffb2b1d9f2c4de991f63a9b25cad5b386"
         },
         "arm64": {
-            "url": "https://github.com/goark/ml/releases/download/v0.6.4/ml_0.6.4_Windows_ARM64.zip",
-            "hash": "ba218fd55ca9cd37b92a3e3684677cd4807768991d20bcc7190e7c86a1175afa"
+            "url": "https://github.com/goark/ml/releases/download/v0.6.8/ml_0.6.8_Windows_ARM64.zip",
+            "hash": "90320ad962e55ab3a6aa464f27e0e36a2d9008c96e3f038fc730ee09fc7ccc23"
         }
     },
     "bin": [
