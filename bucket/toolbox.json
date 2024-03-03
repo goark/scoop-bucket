@@ -1,16 +1,16 @@
 {
-    "version": "0.10.4",
+    "version": "0.11.3",
     "description": "A collection of miscellaneous commands",
     "homepage": "https://github.com/goark/toolbox",
     "license": "Apache License 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goark/toolbox/releases/download/v0.10.4/toolbox_0.10.4_Windows_64bit.zip",
-            "hash": "9789a103c245a2939b34169e1841ebd0cbe0bafffb7c574121a6d461fbdaf3af"
+            "url": "https://github.com/goark/toolbox/releases/download/v0.11.3/toolbox_0.11.3_Windows_64bit.zip",
+            "hash": "24ee113ab2be59d26322549648f67490dd9a98d7ad311c26d2fa4b6757de0935"
         },
         "arm64": {
-            "url": "https://github.com/goark/toolbox/releases/download/v0.10.4/toolbox_0.10.4_Windows_ARM64.zip",
-            "hash": "88f5937ea3ebf8705ca7916ee2ca6fb19ab0413ca616fdc4be770c9423d7cf24"
+            "url": "https://github.com/goark/toolbox/releases/download/v0.11.3/toolbox_0.11.3_Windows_ARM64.zip",
+            "hash": "2961ca5298bbcba2f0f4c0a80daf6f26b5a6f9472c1b8c4ea41d220b921c3944"
         }
     },
     "bin": [
