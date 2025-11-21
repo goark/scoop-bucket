@@ -1,16 +1,16 @@
 {
-    "version": "0.15.8",
+    "version": "0.15.10",
     "description": "OpenPGP packet visualizer",
     "homepage": "https://github.com/goark/gpgpdump",
     "license": "Apache License 2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goark/gpgpdump/releases/download/v0.15.8/gpgpdump_0.15.8_Windows_64bit.zip",
-            "hash": "ec356eecf9b9415f7869117a8ed35e20f39263342bab3b667b14357dd441a260"
+            "url": "https://github.com/goark/gpgpdump/releases/download/v0.15.10/gpgpdump_0.15.10_Windows_64bit.zip",
+            "hash": "79a03bc957d50c66ca6d791b4927eab6ecac0fab72f8127b4b8493a5955b4d53"
         },
         "arm64": {
-            "url": "https://github.com/goark/gpgpdump/releases/download/v0.15.8/gpgpdump_0.15.8_Windows_ARM64.zip",
-            "hash": "f2a6952bc4cad75ce72a65101f3e278bc461679654a28c7c6513adc6c4ce1601"
+            "url": "https://github.com/goark/gpgpdump/releases/download/v0.15.10/gpgpdump_0.15.10_Windows_ARM64.zip",
+            "hash": "7013e05abbcb6fd1c980e7c130b0015d0a0ade145f7c884bbfd26530fe69c7c3"
         }
     },
     "bin": "gpgpdump.exe",
